@@ -11,4 +11,5 @@ class Anagram
     ana << element
     end
     ana
+  end
 end
