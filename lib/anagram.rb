@@ -8,9 +8,10 @@ class Anagram
   def match(array)
     ana = []
     array.each do |element| 
-    if element.split("").sort == @word.split("").sort
+      if element.split("").sort == @word.split("").sort
       ana << element
+      end
     end
-  end
   ana
+  end
 end
